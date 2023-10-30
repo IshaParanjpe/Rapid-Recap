@@ -114,7 +114,11 @@ def get_analysis_results(polling_endpoint):
 
 # Page Title
 st.title("Rapid Recap")
+# How It Works
 
+st.markdown("## How It Works:")
+st.write("1. **Pass Video Links:** Start by providing a text file of the YouTube video links of any channel you wish to assess.")
+st.write("2. **In-Depth Insights:** Click on any thumbnail to gain access to a wealth of information, including video summaries, key topics, and the detection of sensitive content.")
 
 default_bool = st.checkbox("Use a default file")
 
