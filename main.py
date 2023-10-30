@@ -183,7 +183,7 @@ if file is not None:
                     st.subheader('🚨 Mention of the following sensitive topics detected.')
                     moderation_df = pd.DataFrame(sensitive_topics.items())
                     moderation_df.columns = ['topic','confidence']
-                    st.table(moderation_df, use_container_width=True)
+                    st.table(moderation_df)
 
                 else:
                     st.subheader('✅ All clear! No sensitive content detected.')
