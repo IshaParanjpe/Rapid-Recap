@@ -114,6 +114,16 @@ def get_analysis_results(polling_endpoint):
 
 # Page Title
 st.title("Rapid Recap")
+
+# Highlighted Features
+st.markdown("## Why RapidRecap is a Game-Changer:")
+st.markdown("🌟 **Sophisticated Video Auditing:** RapidRecap empowers you to conduct in-depth audits of YouTube channels effortlessly. By simply providing a list of video links, you unlock a treasure trove of insights to evaluate the channel's suitability for your brand.")
+st.markdown("🎥 **Stunning Video Thumbnails:** RapidRecap transforms ordinary video links into captivating thumbnails, making it easier than ever to assess the visual appeal of the content at a glance.")
+st.markdown("📑 **Comprehensive Video Summaries:** Dive deeper into the content with detailed video summaries, allowing you to quickly grasp the essence of each video.")
+st.markdown("🔍 **Topic Analysis:** RapidRecap not only summarizes videos but also identifies the key topics discussed within. This feature empowers you to align your brand messaging with the content, ensuring a seamless and persuasive marketing campaign.")
+st.markdown("🚫 **Sensitive Topic Detection:** For brands conscious of their image and reputation, RapidRecap goes the extra mile by highlighting any sensitive topics covered in the video. This vital information helps you make informed decisions and maintain your brand's integrity.")
+
+
 # How It Works
 
 st.markdown("## How It Works:")
